@@ -1,0 +1,21 @@
+{
+  "name": "silent-wolf-labs",
+  "interface": {
+    "displayName": "Silent Wolf Labs"
+  },
+  "plugins": [
+    {
+      "name": "dependency-upgrade-audit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Silent-Wolf-Labs/dependency-upgrade-audit.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
